@@ -1,0 +1,18 @@
+
+
+.txtarea{
+     width:50%;
+     resize:none;
+      
+     }
+     .inputstyle{
+          width:50%;
+        }
+
+        .inputdrop{
+              width:50%;
+              border: 1px solid #ced4da;
+              border-radius:.25rem;
+             }
+
+             
