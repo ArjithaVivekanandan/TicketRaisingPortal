@@ -72,7 +72,7 @@ export default function CreateTicket(){
     
         <input className="btn btn-primary" type="submit" onClick={handleSubmit} />&nbsp;
         
-    <Link to={`/report/`}><button className="btn btn-primary">Back to Report</button></Link>
+    <Link to={`/report/`}><button className="btn btn-primary">Back to Dashboard</button></Link>
     </div>
 
     
