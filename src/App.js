@@ -5,8 +5,7 @@ import Sidebar from './sidebar';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import CreateTicket from './createticket';
 import Report from './report';
