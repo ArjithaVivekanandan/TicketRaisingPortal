@@ -14,6 +14,6 @@ export default function Delete(props){
     return <> 
        <h1>Item Deleted Successfully</h1>
     <br/>
-    <Link to={`/report/`}><button className="btn btn-lg btn-primary">Back to Report</button></Link>
+    <Link to={`/report/`}><button className="btn btn-lg btn-primary">Back to Dashboard</button></Link>
        </>
 }
