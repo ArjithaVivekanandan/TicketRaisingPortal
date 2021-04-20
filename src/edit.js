@@ -80,7 +80,7 @@ if (error) {
         <label>Query Type</label>
         <br></br>
     <select id="query" className="col-10 p-2 inputdrop" name="ticket"  onChange={(e) =>setQueryType(e.target.value)}>
-    <option value="default" selected disabled hidden>Choose only if there is a change in query type</option>
+    <option value="default" selected disabled hidden>Select an Option</option>
     <option value="Technical Doubt">Technical Doubt</option>
     <option value="Syllabus">Syllabus</option>
     <option value="Fees">Fees</option>
