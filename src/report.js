@@ -51,7 +51,7 @@ export default function Report(){
                  
                  <td >{item.querytype}</td>
                 <td >{item.desc.slice(0,10)+"..."}</td>
-                <td ><Link to={`/edit/${item.id}`}><button class="btn-sm btn-primary">View/Update</button></Link>
+                <td ><Link to={`/edit/${item.id}`}><button class="btn-sm btn-primary">View</button></Link>
                 &nbsp;
                 <Link to={`/delete/${item.id}`}><button class="btn-sm btn-danger">Delete</button></Link>
                 </td>
