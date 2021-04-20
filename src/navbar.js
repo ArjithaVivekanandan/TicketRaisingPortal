@@ -1,6 +1,3 @@
-import { Link } from "react-router-dom";
-
-
 export default function Navbar(){
 
     return <>
@@ -9,13 +6,6 @@ export default function Navbar(){
 <a class="navbar-brand p-2" href="#">Ticket Raising Portal</a>
   
         </nav>
-
-        
-
-
-
-
-  
   
     </>
 }
