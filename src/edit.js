@@ -11,9 +11,10 @@ export default function Edit(props){
     
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
+     var url="https://60446311c0194f00170bba71.mockapi.io/query/"+TicketId;
 
     useEffect(() => {
-        fetch("https://60446311c0194f00170bba71.mockapi.io/query/"+TicketId)
+        fetch(url)
           .then(res => res.json())
           .then(
             (result) => {
@@ -36,9 +37,9 @@ export default function Edit(props){
  
 
  let handleSubmit = () => {
-    var url="https://60446311c0194f00170bba71.mockapi.io/query";
    
-    fetch(url+"/"+TicketId, {
+   
+    fetch(url, {
         method: "PUT",
         body: JSON.stringify({
             studName,
