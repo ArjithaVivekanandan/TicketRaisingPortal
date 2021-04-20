@@ -35,8 +35,7 @@ export default function Report(){
   <thead>
     <tr>
           <th scope="col">Ticket ID</th>
-          <th scope="col">Student Name</th>
-          <th scope="col">Email</th>
+         
           <th scope="col">Query Type</th>
           <th scope="col">Description</th>
           <th scope="col">Options</th>
@@ -49,11 +48,10 @@ export default function Report(){
              items.map((item)=>{
                   return <tr >
                   <th scope="col">{item.id}</th>
-                  <td >{item.studName}</td>
-                 <td >{item.studEmail}</td>
+                 
                  <td >{item.querytype}</td>
-                <td >{item.desc}</td>
-                <td ><Link to={`/edit/${item.id}`}><button class="btn-sm btn-primary">Edit</button></Link>
+                <td >{item.desc.slice(0,10)+"..."}</td>
+                <td ><Link to={`/edit/${item.id}`}><button class="btn-sm btn-primary">View/Update</button></Link>
                 &nbsp;
                 <Link to={`/delete/${item.id}`}><button class="btn-sm btn-danger">Delete</button></Link>
                 </td>
